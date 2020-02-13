@@ -1,1 +1,2 @@
-
+python based perceptron program for detecting whether a website is phishing website or not.the first step is to load  the dataset and identify what are features and labels and storing them in x and y. Followed by splitting of dataset in train and test.then calling a inbuilt perceptron (from  sklearn.linear_model package) to train our model which then helps to predict the labels for test dataset.
+at last calculating the accuracy and no. of misclassified samples.
